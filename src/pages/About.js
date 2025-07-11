@@ -1,12 +1,15 @@
 import React from 'react';
+import './Page.css';
 
-const Projects = () => {
-  return (
-    <div className="p-8 text-center">
-      <h1 className="text-4xl font-bold mb-4">Our Projects</h1>
-      <p className="text-lg text-gray-600">Coming soon: Residential, Commercial, and Hospitality developments in Goa.</p>
-    </div>
-  );
-};
+function About() {
+    return (
+        <div className="page">
+            <h2>About Orvella</h2>
+            <p><strong>Orvella</strong> comes from the word "Orvellum" — meaning gold and craftsmanship.</p>
+            <p>At Orvella Ventures, we believe in blending luxury with nature, creating refined villas nestled in the paradise of Goa.</p>
+            <p>Our dream is to develop timeless spaces that reflect elegance, peace, and architectural brilliance — where every home feels like a retreat.</p>
+        </div>
+    );
+}
 
-export default Projects;
+export default About;
